@@ -58,7 +58,7 @@ def parse_args():
                                         " Filtering model")
     parser.add_argument('--data', type=str,
                         help='Path to test and training data files')
-    parser.add_argument('-e', '--epochs', type=int, default=30,
+    parser.add_argument('-e', '--epochs', type=int, default=300,
                         help='Number of epochs for training')
     parser.add_argument('-b', '--batch_size', type=int, default=2**20,
                         help='Number of examples for each iteration')
